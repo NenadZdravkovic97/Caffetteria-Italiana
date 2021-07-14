@@ -146,6 +146,19 @@ img {
     letter-spacing: 1.5px;
 }
 
+.card-links {
+    text-decoration: none;
+    padding: 1rem 2rem;
+    color: var(--dark-brown-color);
+    font-size: 1.5rem;
+    background-color: var(--light-color);
+    transition: 0.2s ease-in-out;
+}
+
+.card-links:hover {
+    letter-spacing: 4px;
+}
+
 
 
 
