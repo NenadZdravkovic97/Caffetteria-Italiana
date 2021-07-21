@@ -47,8 +47,7 @@ L.tileLayer(
         id: "mapbox/streets-v11",
         tileSize: 512,
         zoomOffset: -1,
-        accessToken:
-            "pk.eyJ1IjoibmVuYWQ4NTk3IiwiYSI6ImNrcmRkdTI3ejFwMHMycHA4NTFkN2NrcDEifQ.W7rEKAspJrs1DmhMErbjXQ",
+        accessToken: key,
     }
 ).addTo(mymap);
 
