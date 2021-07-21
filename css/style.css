@@ -396,31 +396,23 @@ img {
 
 /* Location */
 #location {
-    height: 90vh;
-    /* padding: 3rem; */
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--light-brown-color);
+    background-color: var(--light-color);
 }
 
-@media screen and (max-width: 900px) {
-    #location {
-        flex-direction: column;
-        height: 180vh;
-    }
-
-    #mapid {
-        height: 20%;
-        width: 100%;
-    }
-}
-
-#mapid {
-    height: 100%;
-    width: 100%;
-    border-radius: 1rem;
+#map {
     flex: 1;
+    display: flex;
+    justify-content: center;
+    /* height: 30rem; */
+    height: 40rem;
+    padding: 2rem;
+}
+
+#map iframe {
+    width: 100%;
 }
 
 /* Contact form */
@@ -433,7 +425,6 @@ img {
     align-items: center;
     justify-content: center;
     padding: 2rem;
-    background-color: var(--light-color);
 }
 
 .form {
@@ -509,4 +500,10 @@ img {
     background-color: var(--dark-brown-color);
     color: var(--light-color);
     border-radius: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    #location {
+        flex-direction: column;
+    }
 }
